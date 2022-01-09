@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Epam_FrontEnd_Training_Task</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div>Epam FrontEnd Training Task</div>
+    </header>
+    <form class="form" action="#" method="post">
+        <div class="container">
+
+            <h3>Input form</h3>
+
+            <div class="element-form">
+                <label for="inputName" class="labelName">Name:</label>
+                <div class="element-input">
+                    <input type="text" id="inputName" placeholder="Enter name" title="Use only Latin letters"  autofocus>
+                </div>
+                <span class="error erName">Error message</span>
+            </div>
+
+            <div class="element-form">
+                <label for="inputPassword" class="labelPassword">Password:</label>
+                <div class="element-input">
+                    <input type="password" id="inputPassword" placeholder="Enter password" title="The password must contain at least 8 characters. Only Latin letters and numbers" >
+                    <span class="material-icons eye-icon" id="view">visibility</span>
+                </div>
+                <span class="error erPassword">Error message</span>
+            </div>
+
+            <div class="element-form">
+                <label for="inputEmail" class="labelEmail">E-mail:</label>
+                <div class="element-input">
+                    <input type="email" id="inputEmail" placeholder="e-mail@example.com" title="Enter correct e-mail" >
+                </div>
+                <span class="error erEmail">Error message</span>
+            </div>
+
+            <div class="button element-form">
+                <label></label>
+                <div>
+                    <button type="submit" id="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </div>
+        </div>
+    </form>
+    <script src="js/script.js"></script>
+</body>
+</html>
